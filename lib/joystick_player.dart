@@ -42,12 +42,11 @@ class JoystickPlayer extends RiveComponent with HasGameRef, CollisionCallbacks {
     // add(RectangleHitbox());
     positionText = TextComponent(
       textRenderer: textRenderer,
-      position: (size / 2)..y = size.y / 2 + 30,
+      position: (size / 2)..y = size.y / 2 + 80,
       anchor: Anchor.center,
     );
-    return super.onLoad();
 
-    // add(positionText);
+    add(positionText);
   }
 
   @override

@@ -1,6 +1,7 @@
 import 'package:dashbook/dashbook.dart';
 
 import 'package:flame/components.dart';
+import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';
 import 'package:flame/palette.dart';
@@ -11,6 +12,8 @@ import 'advanced_joystick.dart';
 
 void main() {
   runApp(const MyApp());
+  Flame.device.fullScreen();
+  Flame.device.setPortraitDownOnly();
 }
 
 class MyApp extends StatefulWidget {
@@ -24,24 +27,25 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(home: Builder(builder: (BuildContext context) {
-      return SafeArea(
-        child: Scaffold(
-          body: Stack(
-            children: [
-              GameWidget(
-                game: JoystickAdvancedExample(
-                  viewportResolution: Vector2(
-                    MediaQuery.of(context).size.width,
-                    MediaQuery.of(context).size.height,
-                  ),
-                ),
-              ),
-              Align(
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('Sevan'),
+        ),
+        body: Stack(
+          children: [
+            GameWidget(
+              game: JoystickAdvancedExample(),
+            ),
+            SafeArea(
+              child: Align(
                 alignment: Alignment.bottomLeft,
                 child: InkWell(
                   onTap: () {
-                    Navigator.of(context).push(MaterialPageRoute<void>(
-                        builder: (context) => const PushS()));
+                    Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (context) => const PushS(),
+                      ),
+                    );
                   },
                   child: Container(
                     color: Colors.red,
@@ -50,8 +54,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       );
     }));
@@ -69,7 +73,9 @@ class PushState extends State<PushS> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('My List'),
+      ),
       body: SafeArea(
         child: Container(
           child: ListView.builder(

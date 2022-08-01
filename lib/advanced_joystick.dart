@@ -15,21 +15,15 @@ import 'package:rive/rive.dart';
 
 class JoystickAdvancedExample extends FlameGame
     with HasDraggables, HasTappables, HasCollisionDetection {
-  JoystickAdvancedExample({
-    required this.viewportResolution,
-  });
   late final JoystickPlayer player;
   late final JoystickComponent joystick;
   late final TextComponent speedText;
   late final Artboard artC;
   late final TextComponent directionText;
   // late final RiveComponent riveCom;
-  final Vector2 viewportResolution;
 
   @override
   Future<void> onLoad() async {
-    camera.viewport = FixedResolutionViewport(viewportResolution);
-
     final image = await images.load('joystick.png');
     final sheet = SpriteSheet.fromColumnsAndRows(
       image: image,
