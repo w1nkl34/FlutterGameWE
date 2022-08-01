@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class TimerComponentExample extends FlameGame
     with TapDetector, DoubleTapDetector {
   static const String description = '''
-    This examples showcases the `TimerComponent`.\n\n
+    This fluttergamewe showcases the `TimerComponent`.\n\n
     Tap to start a timer that lives for one second and double tap to start
     another timer that lives for 5 seconds.
   ''';

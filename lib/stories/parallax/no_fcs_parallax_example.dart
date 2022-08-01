@@ -4,8 +4,8 @@ import 'package:flame/parallax.dart';
 
 class NoFCSParallaxExample extends Game {
   static const String description = '''
-    This examples serves to test the Parallax feature outside of the Flame
-    Component System (FCS), use the other files in this folder for examples on
+    This fluttergamewe serves to test the Parallax feature outside of the Flame
+    Component System (FCS), use the other files in this folder for fluttergamewe on
     how to use parallax with FCS.\n
     FCS is only used when you extend FlameGame, not when you only use the Game
     mixin, like we do in this example.

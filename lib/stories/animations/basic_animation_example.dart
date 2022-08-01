@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:examples/commons/ember.dart';
+import 'package:fluttergamewe/commons/ember.dart';
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';

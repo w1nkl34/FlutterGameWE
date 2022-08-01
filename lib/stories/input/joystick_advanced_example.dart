@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:examples/stories/input/joystick_player.dart';
+import 'package:fluttergamewe/stories/input/joystick_player.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 import 'package:flame/game.dart';

@@ -1,4 +1,4 @@
-import 'package:examples/stories/bridge_libraries/forge2d/utils/boundaries.dart';
+import 'package:fluttergamewe/stories/bridge_libraries/forge2d/utils/boundaries.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';
 import 'package:flame_forge2d/flame_forge2d.dart' hide Transform;
@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class WidgetExample extends Forge2DGame with TapDetector {
   static const String description = '''
-    This examples shows how to render a widget on top of a Forge2D body outside
+    This fluttergamewe shows how to render a widget on top of a Forge2D body outside
     of Flame.
   ''';
 

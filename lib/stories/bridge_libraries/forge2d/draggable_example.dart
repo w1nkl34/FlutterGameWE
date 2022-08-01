@@ -1,5 +1,5 @@
-import 'package:examples/stories/bridge_libraries/forge2d/utils/balls.dart';
-import 'package:examples/stories/bridge_libraries/forge2d/utils/boundaries.dart';
+import 'package:fluttergamewe/stories/bridge_libraries/forge2d/utils/balls.dart';
+import 'package:fluttergamewe/stories/bridge_libraries/forge2d/utils/boundaries.dart';
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';

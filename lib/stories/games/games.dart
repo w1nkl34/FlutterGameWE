@@ -5,7 +5,7 @@ import 'package:trex_game/trex_game.dart';
 import 'package:trex_game/trex_widget.dart';
 
 String gamesLink(String game) =>
-    'https://github.com/flame-engine/flame/blob/main/examples/games/$game';
+    'https://github.com/flame-engine/flame/blob/main/fluttergamewe/games/$game';
 
 void addGameStories(Dashbook dashbook) {
   dashbook.storiesOf('Sample Games')

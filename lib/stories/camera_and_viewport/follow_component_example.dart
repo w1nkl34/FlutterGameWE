@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:examples/commons/ember.dart';
+import 'package:fluttergamewe/commons/ember.dart';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
@@ -12,8 +12,7 @@ import 'package:flutter/services.dart';
 
 class FollowComponentExample extends FlameGame
     with HasCollisionDetection, HasTappables, HasKeyboardHandlerComponents {
-  static const String description =
-      '''
+  static const String description = '''
     Move around with W, A, S, D and notice how the camera follows the ember 
     sprite.\n
     If you collide with the gray squares, the camera reference is changed from

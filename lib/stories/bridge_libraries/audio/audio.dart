@@ -1,6 +1,6 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/bridge_libraries/audio/basic_audio_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/bridge_libraries/audio/basic_audio_example.dart';
 import 'package:flame/game.dart';
 
 void addAudioStories(Dashbook dashbook) {

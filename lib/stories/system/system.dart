@@ -1,8 +1,8 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/system/overlays_example.dart';
-import 'package:examples/stories/system/pause_resume_example.dart';
-import 'package:examples/stories/system/without_flamegame_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/system/overlays_example.dart';
+import 'package:fluttergamewe/stories/system/pause_resume_example.dart';
+import 'package:fluttergamewe/stories/system/without_flamegame_example.dart';
 import 'package:flame/game.dart';
 
 void addSystemStories(Dashbook dashbook) {

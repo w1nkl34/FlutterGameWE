@@ -1,12 +1,12 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/rendering/flip_sprite_example.dart';
-import 'package:examples/stories/rendering/isometric_tile_map_example.dart';
-import 'package:examples/stories/rendering/layers_example.dart';
-import 'package:examples/stories/rendering/nine_tile_box_example.dart';
-import 'package:examples/stories/rendering/particles_example.dart';
-import 'package:examples/stories/rendering/particles_interactive_example.dart';
-import 'package:examples/stories/rendering/text_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/rendering/flip_sprite_example.dart';
+import 'package:fluttergamewe/stories/rendering/isometric_tile_map_example.dart';
+import 'package:fluttergamewe/stories/rendering/layers_example.dart';
+import 'package:fluttergamewe/stories/rendering/nine_tile_box_example.dart';
+import 'package:fluttergamewe/stories/rendering/particles_example.dart';
+import 'package:fluttergamewe/stories/rendering/particles_interactive_example.dart';
+import 'package:fluttergamewe/stories/rendering/text_example.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 

@@ -1,11 +1,11 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/sprites/base64_sprite_example.dart';
-import 'package:examples/stories/sprites/basic_sprite_example.dart';
-import 'package:examples/stories/sprites/sprite_group_example.dart';
-import 'package:examples/stories/sprites/spritebatch_example.dart';
-import 'package:examples/stories/sprites/spritebatch_load_example.dart';
-import 'package:examples/stories/sprites/spritesheet_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/sprites/base64_sprite_example.dart';
+import 'package:fluttergamewe/stories/sprites/basic_sprite_example.dart';
+import 'package:fluttergamewe/stories/sprites/sprite_group_example.dart';
+import 'package:fluttergamewe/stories/sprites/spritebatch_example.dart';
+import 'package:fluttergamewe/stories/sprites/spritebatch_load_example.dart';
+import 'package:fluttergamewe/stories/sprites/spritesheet_example.dart';
 import 'package:flame/game.dart';
 
 void addSpritesStories(Dashbook dashbook) {

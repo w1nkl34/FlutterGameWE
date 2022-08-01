@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:examples/stories/bridge_libraries/forge2d/utils/boundaries.dart';
+import 'package:fluttergamewe/stories/bridge_libraries/forge2d/utils/boundaries.dart';
 import 'package:flame/input.dart';
 import 'package:flame_forge2d/flame_forge2d.dart';
 

@@ -1,4 +1,4 @@
-import 'package:examples/commons/ember.dart';
+import 'package:fluttergamewe/commons/ember.dart';
 import 'package:flame/game.dart';
 
 class FlipSpriteExample extends FlameGame {

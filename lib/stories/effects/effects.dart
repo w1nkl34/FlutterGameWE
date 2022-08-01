@@ -1,15 +1,15 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/effects/color_effect_example.dart';
-import 'package:examples/stories/effects/dual_effect_removal_example.dart';
-import 'package:examples/stories/effects/effect_controllers_example.dart';
-import 'package:examples/stories/effects/move_effect_example.dart';
-import 'package:examples/stories/effects/opacity_effect_example.dart';
-import 'package:examples/stories/effects/remove_effect_example.dart';
-import 'package:examples/stories/effects/rotate_effect_example.dart';
-import 'package:examples/stories/effects/scale_effect_example.dart';
-import 'package:examples/stories/effects/sequence_effect_example.dart';
-import 'package:examples/stories/effects/size_effect_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/effects/color_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/dual_effect_removal_example.dart';
+import 'package:fluttergamewe/stories/effects/effect_controllers_example.dart';
+import 'package:fluttergamewe/stories/effects/move_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/opacity_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/remove_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/rotate_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/scale_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/sequence_effect_example.dart';
+import 'package:fluttergamewe/stories/effects/size_effect_example.dart';
 import 'package:flame/game.dart';
 
 void addEffectsStories(Dashbook dashbook) {

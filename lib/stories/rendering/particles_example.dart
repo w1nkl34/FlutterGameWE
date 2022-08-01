@@ -20,13 +20,13 @@ class ParticlesExample extends FlameGame {
   static const steps = 5;
 
   /// Miscellaneous values used
-  /// by examples below
+  /// by fluttergamewe below
   final Random rnd = Random();
   Timer? spawnTimer;
   final StepTween steppedTween = StepTween(begin: 0, end: 5);
   final trafficLight = TrafficLightComponent();
 
-  /// Defines the lifespan of all the particles in these examples
+  /// Defines the lifespan of all the particles in these fluttergamewe
   final sceneDuration = const Duration(seconds: 1);
 
   Vector2 get cellSize => size / gridSize;
@@ -277,7 +277,7 @@ class ParticlesExample extends FlameGame {
   }
 
   /// Simple static image particle which doesn't do much.
-  /// Images are great examples of where assets should
+  /// Images are great fluttergamewe of where assets should
   /// be reused across particles. See example below for more details.
   Particle imageParticle() {
     return ImageParticle(

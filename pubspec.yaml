@@ -1,6 +1,6 @@
-name: examples
-description: A set of small examples showcasing each feature provided by the Flame Engine.
-homepage: https://github.com/flame-engine/flame/tree/main/examples
+name: fluttergamewe
+description: A set of small fluttergamewe showcasing each feature provided by the Flame Engine.
+homepage: https://github.com/flame-engine/flame/tree/main/fluttergamewe
 publish_to: 'none'
 
 version: 0.1.0

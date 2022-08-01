@@ -1,9 +1,9 @@
 import 'package:dashbook/dashbook.dart';
-import 'package:examples/commons/commons.dart';
-import 'package:examples/stories/components/composability_example.dart';
-import 'package:examples/stories/components/debug_example.dart';
-import 'package:examples/stories/components/game_in_game_example.dart';
-import 'package:examples/stories/components/priority_example.dart';
+import 'package:fluttergamewe/commons/commons.dart';
+import 'package:fluttergamewe/stories/components/composability_example.dart';
+import 'package:fluttergamewe/stories/components/debug_example.dart';
+import 'package:fluttergamewe/stories/components/game_in_game_example.dart';
+import 'package:fluttergamewe/stories/components/priority_example.dart';
 import 'package:flame/game.dart';
 
 void addComponentsStories(Dashbook dashbook) {
