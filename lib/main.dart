@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dashbook/dashbook.dart';
 
 import 'package:flame/components.dart';
@@ -13,7 +15,9 @@ import 'advanced_joystick.dart';
 void main() {
   runApp(const MyApp());
   Flame.device.fullScreen();
-  Flame.device.setPortraitDownOnly();
+  if (Platform.isIOS) {
+    Flame.device.setPortraitDownOnly();
+  }
 }
 
 class MyApp extends StatefulWidget {
